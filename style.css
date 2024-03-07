@@ -55,3 +55,14 @@
     border: none;
     cursor: pointer;
 }
+
+.move {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.reload {
+    display: none;
+    margin-top: 2rem;
+    padding: 1rem;
+}
