@@ -65,4 +65,10 @@
     display: none;
     margin-top: 2rem;
     padding: 1rem;
+    background: #f9b17a;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
+
