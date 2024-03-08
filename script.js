@@ -29,6 +29,10 @@ const game = () => {
   }
 }
 
+const winner = (player, computer) => {
+  
+}
+
 
 // function game() {
 //   while (rounds < 5) {
