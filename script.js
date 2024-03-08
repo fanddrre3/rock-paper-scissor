@@ -14,7 +14,9 @@ const game = () => {
       option.addEventListener('click', function () {
         const movesLeft = document.querySelector('.movesleft');
         moves++;
-        movesLeft
+        movesLeft.innerText = `Moves Left: ${10 - moves}`;
+
+        const choiceNumber = Math.floor(Math.random() * 3);
       })
     })
   }
