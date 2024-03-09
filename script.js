@@ -98,4 +98,12 @@ const gameOver = (playerOptions, movesLeft) => {
     result.innerText = 'Tie';
     result.style.color = 'grey';
   }
+  reloadBtn.innerText = 'Restart';
+  reloadBtn.style.display = 'flex';
+  reloadBtn.addEventListener('click', () => {
+    window.location.reload();
+  })
+  playGame();
 }
+
+game();
