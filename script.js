@@ -27,7 +27,7 @@ const game = () => {
       })
     })
   }
-}
+
 
 const winner = (player, computer) => {
   const result = document.querySelector('.result');
@@ -103,7 +103,10 @@ const gameOver = (playerOptions, movesLeft) => {
   reloadBtn.addEventListener('click', () => {
     window.location.reload();
   })
+}
+
   playGame();
+  
 }
 
 game();
