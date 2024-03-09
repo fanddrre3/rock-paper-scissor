@@ -73,4 +73,7 @@ const winner = (player, computer) => {
   }
 }
 
-const gameOver = (playerOptions, movesLeft) => {}
+const gameOver = (playerOptions, movesLeft) => {
+  const chooseMove = document.querySelector('.move');
+  const result = document.querySelector('.result');
+}
