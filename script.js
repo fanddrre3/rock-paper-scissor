@@ -78,5 +78,14 @@ const gameOver = (playerOptions, movesLeft) => {
   const result = document.querySelector('.result');
   const reloadBtn = document.querySelector('.reload');
 
-  playerOptions.forEach(option => {})
+  playerOptions.forEach(option => {
+    option.style.display = 'none';
+  })
+
+  chooseMove.innerText = 'Game Over!!';
+  movesLeft.style.display = 'none';
+
+  if (playerScore > computerScore) {
+    
+  }
 }
