@@ -86,6 +86,16 @@ const gameOver = (playerOptions, movesLeft) => {
   movesLeft.style.display = 'none';
 
   if (playerScore > computerScore) {
-    
+    result.style.fontSize = '2rem';
+    result.innerText = 'You Won The Game';
+    result.style.color = '#308D46';
+  } else if (playerScore < computerScore) {
+    result.style.fontSize = '2rem';
+    result.innerText = 'You Lose The Game';
+    result.style.color = 'red';
+  } else {
+    result.style.fontSize = '2rem';
+    result.innerText = 'Tie';
+    result.style.color = 'grey';
   }
 }
